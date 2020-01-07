@@ -1,0 +1,17 @@
+{
+  "name": "webpack-npm",
+  "version": "0.0.1",
+  "description": "原生组件开发脚手架",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "webpack"
+  },
+  "author": "shryzhang",
+  "license": "ISC",
+  "devDependencies": {
+    "terser-webpack-plugin": "^2.1.2",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
